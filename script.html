@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Садуллаев Абдулазиз</title>
+</head>
+<body>
+    <section>
+        <h3>Максимальное значение заданного числа- <span id="max"></span></h3>
+        <h3>Минимальное значение заданного числа - <span id="min"></span></h3>
+        <h3><span id="demo"></span></h3>
+        
+    </section>
+    <script>
+
+    let x = confirm("Вы старше 30 лет") 
+
+
+        
+        numbers = [+prompt("Введите номер" , "") , +prompt("Введите номер" , "")]
+
+            var largest = numbers[0];
+            var smallest = numbers[0];
+
+            for (var i = 1; i < numbers.length; i++) {
+
+            if (numbers[i] > largest) {
+                largest = numbers[i];
+            } else if (numbers[i] < smallest) {
+                smallest = numbers[i];
+            }
+
+            document.getElementById("max").innerHTML = largest;
+            document.getElementById("min").innerHTML = smallest;
+            }
+
+        document.getElementById("demo").innerHTML = largest + ">" + smallest;
+    </script>
+</body>
+</html>

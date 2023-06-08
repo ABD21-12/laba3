@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sign-up.css">
+    <title>Садуллаев Абдулазиз</title>
+</head>
+<body>
+    <div class="sign__up-info">
+        <div class="sign__up-name">
+            <label for="ism">Введите свое имя</label><br>
+            <input type="text" name="" id="ism">
+        </div>
+        <div class="sign__up-fname">
+            <label for="fname">Введите свою фамилию</label><br>
+            <input type="text" name="" id="fname">
+        </div>
+        <a href="/index.html">Введение</a>
+    </div>
+    <script>
+        function random_bg_color() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    console.log(bgColor);
+    
+        document.body.style.background = bgColor;
+        }
+    random_bg_color();
+    </script>
+</body>
+</html>

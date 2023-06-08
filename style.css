@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::after{
+    box-sizing: border-box;
+}
+
+*::before{
+    box-sizing: inherit;
+}
+
+header{
+    max-width: 800px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* .portfolio_pages{
+    width: 300px;
+    border: 1px solid #000;
+    height: 300px;
+}
+*/
+.portfolio__pages-img{
+    vertical-align: middle;
+    height: 500px;
+} 
+
+
+.portfolio__my-info{
+    font-size: 16px;
+    color: red;
+    padding: 5px;
+    background-color: rgb(43, 255, 0) ;
+    box-shadow: 0 0 10px 10px red;
+    transition: .33s;
+}
+
+.portfolio__my-info:hover{
+    color: rgb(43, 255, 0);
+    font-size: 22px;
+    padding: 5px;
+    background-color: red ;
+    /* text-shadow: 0 0 10px black; */
+    box-shadow: 0 0 10px 10px rgb(43, 255, 0);
+}
+
+.portfolio__my-info:active{
+    font-size: 22px;
+    font-weight: 900;
+    color: navy;
+    padding: 5px;
+    background-color: rgba(62, 183, 38, 0.822) ;
+    box-shadow: 0 0 10px 10px rgb(217, 255, 0);
+    border-radius: 20px;
+}
+
+.mb-15{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* padding: 30px; */
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.lbl{
+    font-size: 18px;
+}
+
+.btn{
+    width: 166px;
+}
+
+.inp-form{
+    float: right;
+    padding: 3px;
+    margin-right: 30px;
+}
